@@ -41,6 +41,181 @@ let
     '';
   };
 
+  meta-mach = {
+    version = "0.16.0-dev.3142+5ccfeb926";
+    date = "2026-04-08";
+    docs = "https://ziglang.org/documentation/master/";
+    stdDocs = "https://ziglang.org/documentation/master/std/";
+
+    src = {
+      filename = "zig-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 22514308;
+    };
+
+    bootstrap = {
+      filename = "zig-bootstrap-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 55249128;
+    };
+
+    x86_64-darwin = {
+      filename = "zig-x86_64-macos-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 57370360;
+    };
+
+    arm64-darwin = {
+      filename = "zig-aarch64-macos-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 52209300;
+    };
+
+    x86_64-linux = {
+      filename = "zig-x86_64-linux-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 55442528;
+    };
+
+    aarch64-linux = {
+      filename = "zig-aarch64-linux-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 51192996;
+    };
+
+    armv7l-linux = {
+      filename = "zig-arm-linux-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 52096484;
+    };
+
+    riscv64-linux = {
+      filename = "zig-riscv64-linux-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 55303488;
+    };
+
+    powerpc64le-linux = {
+      filename = "zig-powerpc64le-linux-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 55239740;
+    };
+
+    i686-linux = {
+      filename = "zig-x86-linux-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 58184996;
+    };
+
+    loongarch64-linux = {
+      filename = "zig-loongarch64-linux-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 52510812;
+    };
+
+    s390x-linux = {
+      filename = "zig-s390x-linux-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 54930764;
+    };
+
+    x86_64-mingw32 = {
+      filename = "zig-x86_64-windows-0.17.0-dev.131+73c51c142.zip";
+      shasum = "";
+      size = 97890098;
+    };
+
+    aarch64-mingw32 = {
+      filename = "zig-aarch64-windows-0.17.0-dev.131+73c51c142.zip";
+      shasum = "";
+      size = 93818396;
+    };
+
+    i686-mingw32 = {
+      filename = "zig-x86-windows-0.17.0-dev.131+73c51c142.zip";
+      shasum = "";
+      size = 99701777;
+    };
+
+    aarch64-freebsd = {
+      filename = "zig-aarch64-freebsd-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 51131680;
+    };
+
+    armv7l-freebsd = {
+      filename = "zig-arm-freebsd-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 52714508;
+    };
+
+    powerpc64le-freebsd = {
+      filename = "zig-powerpc64le-freebsd-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 55248516;
+    };
+
+    riscv64-freebsd = {
+      filename = "zig-riscv64-freebsd-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 55393612;
+    };
+
+    x86_64-freebsd = {
+      filename = "zig-x86_64-freebsd-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 55559844;
+    };
+
+    aarch64-netbsd = {
+      filename = "zig-aarch64-netbsd-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 51088164;
+    };
+
+    armv7l-netbsd = {
+      filename = "zig-arm-netbsd-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 53749844;
+    };
+
+    i686-netbsd = {
+      filename = "zig-x86-netbsd-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 58763132;
+    };
+
+    x86_64-netbsd = {
+      filename = "zig-x86_64-netbsd-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 55502732;
+    };
+
+    aarch64-openbsd = {
+      filename = "zig-aarch64-openbsd-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 51564204;
+    };
+
+    armv7l-openbsd = {
+      filename = "zig-arm-openbsd-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 52287192;
+    };
+
+    riscv64-openbsd = {
+      filename = "zig-riscv64-openbsd-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 55714104;
+    };
+
+    x86_64-openbsd = {
+      filename = "zig-x86_64-openbsd-0.16.0-dev.3142+5ccfeb926.tar.xz";
+      shasum = "";
+      size = 56919288;
+    };
+  };
+
   meta-master = {
     version = "0.17.0-dev.131+73c51c142";
     date = "2026-04-25";
@@ -1752,6 +1927,8 @@ let
   };
 in
 {
+  mach = bin meta-mach;
+  src-mach = src meta-mach llvmPackages_21;
   latest = bin meta-0_16_0;
   src-latest = src meta-0_16_0 llvmPackages_21;
   master = bin meta-master;
