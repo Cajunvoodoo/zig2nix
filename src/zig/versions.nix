@@ -73,7 +73,7 @@ let
 
     x86_64-linux = {
       filename = "zig-x86_64-linux-0.16.0-dev.3142+5ccfeb926.tar.xz";
-      shasum = "";
+      shasum = "sha256-q0579jWKY+UK7sIkNUe2N5HHVSNoWtRY0MM5RI1yOog=";
       size = 55442528;
     };
 
